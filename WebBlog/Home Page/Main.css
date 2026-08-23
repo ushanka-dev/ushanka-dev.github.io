@@ -1,6 +1,21 @@
+@font-face {
+    font-family: '0xProto';
+    src: url('0xProto-Regular.ttf') format('truetype');
+}
+
+
 Body {
     background-color: #d4d4d4;
     color: #2d2d2d;
-    font-family: '0xProto-Regular.ttf';
-    text-align: center;
+    font-family: '0xProto';
+    text-align: left;
+}
+
+h3 {
+    font-family: '0xProto'; 
+}
+
+h2 {
+    font-family: '0xProto';
+    font-size: 25px;
 }

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: '0xProto';
+    src: url('0xProto-Regular.ttf') format('truetype');
+}
+
+
+Body {
+    color: #f57e00;
+    background-color: #f57e00;
+    font-family: '0xProto';
+    text-align: center;
+    background-image: url('Images/90b443420d67456558430316e2438899-1543757401.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3 {
+    font-size: clamp(15px, 2vw, 20px);
+    font-family: '0xProto';
+    color: #f57e00;
+}
+
+h2 {
+    color: #f57e00;
+    font-family: '0xProto';
+    font-size: 25px;
+}

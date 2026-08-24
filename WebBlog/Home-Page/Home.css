@@ -1,0 +1,15 @@
+@font-face {
+    font-family: '0xProto';
+    src: url('../Main-Resources/fonts/0xProto-Regular.otf') format('truetype');
+}
+
+Body {
+    color: #f57e00;
+    font-family: '0xProto';
+    text-align: center;
+    background-image: url('../Main-Resources/Wallpaper/night_sky.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

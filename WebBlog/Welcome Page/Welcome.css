@@ -3,38 +3,16 @@
     src: url('../Main-Resources/fonts/0xProto-Regular.otf') format('truetype');
 }
 
-Body {
+body {
+    min-height: 100vh;
+    min-width: 50vw;
+    color: #00c3ff;
     font-family: '0xProto';
     background-image: url('../Main-Resources/Wallpaper/artistic-pixel-art-hd-space.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    object-fit: cover; 
-    
-   
-}
-
-h1 {
-    font-size: clamp(15px, 2vw, 20px);
-    color: #00c3ff;
-    font-family: '0xProto';
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    size: 150%;
-}
-
-#arc{
-   margin-bottom: 2vw;
-   margin-left: 2vw;
-   size: 50%;
-}
-
-#ddg{
-   margin-top: 2vw;
-   margin-left: 2vw;
-   size: 50%;
 }
 
 html{
@@ -42,4 +20,32 @@ html{
     scrollbar-width: thin;
     scrollbar-color: #00c3ff #929191;
     scrollbar-width: 50px;
+}
+
+#welcome{
+font-size: clamp(15px, 2vw, 20px);
+    color: #00c3ff;
+    font-family: '0xProto';
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    size: 150%;
+}
+
+#WAI {
+    font-size: clamp(15px, 2vw, 20px);
+    color: #00d5ff;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    font-family: '0xProto';
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#marquee {
+    overflow: hidden;
 }

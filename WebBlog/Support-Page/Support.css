@@ -1,0 +1,258 @@
+@font-face {
+    font-family: '0xProto';
+    src: url('../Main-Resources/fonts/0xProto-Regular.otf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    min-width: 50vw;
+    color: #6fff00;
+    font-family: '0xProto';
+    text-align: center;
+   background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.392)),
+    url("../Main-Resources/GIFs/giphy-1088243361.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#support{
+    color: #00ff5e;
+}
+
+#description{
+    background-color: #000000b7;
+    color: #00ff5e;
+    font-family: '0xProto';
+    font-size: 45px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: clamp(15px, 2vw, 20px);
+    font-family: '0xProto';
+    color: #6fff00;
+}
+
+h2 {
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 25px;
+}
+
+p{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 35px;
+}
+
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #6fff00 #929191;
+}
+
+html::-webkit-scrollbar
+{
+ width: 2vw;
+}
+
+#la{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#support{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+}
+
+#description{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: px;
+    margin-top: 35px;
+}
+
+#btc{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#bch{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+#eth{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+#xmr{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+#ltc{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+#zec{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 35px;
+    break-inside: avoid;
+}
+
+#doge{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+#zano{
+    color: #6fff00;
+    font-family: '0xProto';
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+#eh{
+    font-size: clamp(16px, 5vw, 80px);
+    font-size: 45px;
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+#xr{
+    font-size: clamp(16px, 5vw, 80px);
+    font-size: 50px;
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+#dg{
+    font-size: clamp(16px, 5vw, 80px);
+    font-size: 50px;
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+#bh{
+    font-size: clamp(16px, 5vw, 80px);
+    font-size: 50px;
+
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+#bt{
+    font-size: clamp(16px, 5vw, 80px);
+    font-size: 50px;
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+
+#lc{
+    font-size: clamp(16px, 5vw, 80px);
+    font-size: 50px;
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+#zc{
+    font-size: clamp(16px, 5vw, 80);
+    font-size: 50px;
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+
+#zn{
+    font-size: clamp(16px, 5vw, 80px);
+    font-size: 50px;
+    font-family: '0xProto';
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+#zcash-icon{
+    max-width: 50px;
+    margin-right: 10px;
+     
+}
+
+#litecoin-icon{
+    max-width: 50px;
+    margin-right: 10px;
+     
+}
+
+#ethereum-icon{
+    max-width: 50px;
+    margin-right: 10px;
+     
+}
+
+#monero-icon{
+    max-width: 50px;
+    margin-right: 10px;
+     
+}
+
+#bitcoincash-icon{
+    max-width: 50px;
+
+}
+
+#bitcoin-icon{
+    max-width: 50px;
+    margin-right: 10px;
+     
+}
+
+#dogecoin-icon{
+    max-width: 50px;
+    margin-right: 10px;
+     
+}
+
+#zano-icon{
+    max-width: 50px;
+    margin-right: 10px;
+    
+    
+     
+}

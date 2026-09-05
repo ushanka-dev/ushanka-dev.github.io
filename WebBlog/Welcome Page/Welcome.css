@@ -47,5 +47,6 @@ font-size: clamp(15px, 2vw, 20px);
 }
 
 #marquee {
+    font-size: clamp(14px, 5vw, 60px);
     overflow: hidden;
 }

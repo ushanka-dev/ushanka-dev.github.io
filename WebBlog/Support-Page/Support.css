@@ -10,7 +10,7 @@ body {
     font-family: '0xProto';
     text-align: center;
    background-image:
-    linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.392)),
+    linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)),
     url("../Main-Resources/GIFs/giphy-1088243361.gif");
     background-repeat: no-repeat;
     background-position: center;
